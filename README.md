@@ -28,7 +28,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Plataforma ONG. Todos os direitos reservados.</p>
+    
   </footer>
 
 
@@ -77,7 +77,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Plataforma ONG. Todos os direitos reservados.</p>
+    
   </footer>
 </body>
 </html>
@@ -112,7 +112,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Plataforma ONG. Todos os direitos reservados.</p>
+    
   </footer>
 </body>
 </html>
