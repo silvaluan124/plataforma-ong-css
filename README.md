@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Plataforma ONG - Início</title>
+ 
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -39,7 +39,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projetos - Plataforma ONG</title>
+ 
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -88,7 +88,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sobre - Plataforma ONG</title>
+ 
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -121,7 +121,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contato - Plataforma ONG</title>
+ 
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -139,43 +139,11 @@
 
   <main>
     <form id="formContato">
-      <label for="nome">Nome:</label>
+      <label for="nome">Nome: Luan Silva Lourenço</label>
       <input type="text" id="nome" required />
 
-<label for="email">Email:</label>
+<label for="email">Email: silvaluan124@gmail.com</label>
       <input type="email" id="email" required />
 
- <label for="mensagem">Mensagem:</label>
-      <textarea id="mensagem" rows="5" required></textarea>
 
-   <button type="submit">Enviar</button>
-    </form>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Plataforma ONG. Todos os direitos reservados.</p>
-  </footer>
-
-  <script src="js/script.js"></script>
-</body>
-</html>
-
-// Interações básicas da plataforma
-document.addEventListener("DOMContentLoaded", () => {
-  const botao = document.getElementById("verProjetos");
-  if (botao) {
-    botao.addEventListener("click", () => {
-      window.location.href = "projetos.html";
-    });
-  }
-
-  const form = document.getElementById("formContato");
-  if (form) {
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      alert("Mensagem enviada com sucesso! Entraremos em contato em breve.");
-      form.reset();
-    });
-  }
-});
 
