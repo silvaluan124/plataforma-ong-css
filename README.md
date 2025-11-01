@@ -1,196 +1,181 @@
-/* ================================
-   🎨 SISTEMA DE DESIGN
-==================================*/
-:root {
-  /* Paleta principal */
-  --cor-primaria: #0077b6;
-  --cor-secundaria: #00b4d8;
-  --cor-escura: #023e8a;
-  --cor-clara: #caf0f8;
-  --cor-texto: #333;
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plataforma ONG - Início</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Plataforma de ONGs</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  /* Espaçamentos (escala modular) */
-  --espaco-xs: 4px;
-  --espaco-s: 8px;
-  --espaco-m: 16px;
-  --espaco-l: 32px;
-  --espaco-xl: 48px;
+  <main>
+    <section class="intro">
+      <h2>Conecte-se com ONGs e transforme o mundo</h2>
+      <p>Encontre projetos sociais e descubra como você pode ajudar como voluntário ou doador.</p>
+      <button id="verProjetos">Ver Projetos</button>
+    </section>
+  </main>
 
-  /* Tipografia */
-  --fonte-principal: "Segoe UI", Arial, sans-serif;
-  --tamanho-texto: 1rem;
-  --tamanho-titulo: 2rem;
-}
+  <footer>
+    <p>&copy; 2025 Plataforma ONG. Todos os direitos reservados.</p>
+  </footer>
 
-/* ================================
-   ✨ ESTILOS GERAIS
-==================================*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  <script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projetos - Plataforma ONG</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Projetos em Destaque</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-body {
-  font-family: var(--fonte-principal);
-  background-color: var(--cor-clara);
-  color: var(--cor-texto);
-  line-height: 1.6;
-}
+  <main>
+    <section class="projetos">
+      <article class="projeto">
+        <h3>Projeto Esperança</h3>
+        <p>Oferece reforço escolar e alimentação para crianças carentes.</p>
+        <button>Saiba Mais</button>
+      </article>
+      <article class="projeto">
+        <h3>Verde Futuro</h3>
+        <p>Realiza ações de plantio de árvores e educação ambiental.</p>
+        <button>Saiba Mais</button>
+      </article>
 
-/* ================================
-   🧭 NAVEGAÇÃO
-==================================*/
-header {
-  background-color: var(--cor-primaria);
-  color: white;
-  text-align: center;
-  padding: var(--espaco-m);
-}
+ <article class="projeto">
+        <h3>Lares Solidários</h3>
+        <p>Apoia famílias em vulnerabilidade com moradia e doações.</p>
+        <button>Saiba Mais</button>
+      </article>
+    </section>
+  </main>
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: var(--cor-escura);
-  margin-top: var(--espaco-s);
-}
+  <footer>
+    <p>&copy; 2025 Plataforma ONG. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
 
-nav li {
-  margin: 0 var(--espaco-s);
-}
 
-nav a {
-  color: white;
-  text-decoration: none;
-  padding: var(--espaco-s) var(--espaco-m);
-  display: block;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre - Plataforma ONG</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sobre a Plataforma ONG</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-nav a:hover,
-nav a:focus {
-  background-color: var(--cor-secundaria);
-}
+  <main>
+    <section>
+      <h2>Nosso Propósito</h2>
+      <p>A Plataforma ONG conecta pessoas e instituições comprometidas com um mundo melhor. Criamos um espaço para que ONGs possam divulgar suas ações e receber apoio de quem quer fazer a diferença.</p>
+    </section>
+  </main>
 
-/* ================================
-   📱 LAYOUTS RESPONSIVOS (Flexbox)
-==================================*/
-main {
-  padding: var(--espaco-l);
-  text-align: center;
-}
+  <footer>
+    <p>&copy; 2025 Plataforma ONG. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato - Plataforma ONG</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Entre em Contato</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-section.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--espaco-m);
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  padding: var(--espaco-l);
-}
+  <main>
+    <form id="formContato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required />
 
-.projetos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: var(--espaco-l);
-}
+<label for="email">Email:</label>
+      <input type="email" id="email" required />
 
-.projeto {
-  background: white;
-  padding: var(--espaco-m);
-  border-radius: 10px;
-  width: 280px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
+ <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" rows="5" required></textarea>
 
-.projeto:hover {
-  transform: translateY(-5px);
-}
+   <button type="submit">Enviar</button>
+    </form>
+  </main>
 
-/* ================================
-   🧠 COMPONENTES DE INTERFACE
-==================================*/
-button {
-  background-color: var(--cor-secundaria);
-  color: white;
-  border: none;
-  padding: var(--espaco-s) var(--espaco-m);
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: var(--tamanho-texto);
-  transition: background-color 0.3s;
-}
+  <footer>
+    <p>&copy; 2025 Plataforma ONG. Todos os direitos reservados.</p>
+  </footer>
 
-button:hover,
-button:focus {
-  background-color: var(--cor-primaria);
-}
+  <script src="js/script.js"></script>
+</body>
+</html>
 
-/* Formulário */
-form {
-  background-color: white;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: var(--espaco-l);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-label {
-  display: block;
-  margin-top: var(--espaco-m);
-  text-align: left;
-}
-
-input, textarea {
-  width: 100%;
-  padding: var(--espaco-s);
-  margin-top: var(--espaco-s);
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-/* ================================
-   👁️‍🗨️ ACESSIBILIDADE E RESPONSIVIDADE
-==================================*/
-a:focus,
-button:focus,
-input:focus,
-textarea:focus {
-  outline: 2px solid var(--cor-secundaria);
-  outline-offset: 3px;
-}
-
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
+// Interações básicas da plataforma
+document.addEventListener("DOMContentLoaded", () => {
+  const botao = document.getElementById("verProjetos");
+  if (botao) {
+    botao.addEventListener("click", () => {
+      window.location.href = "projetos.html";
+    });
   }
 
-  .projetos {
-    flex-direction: column;
-    align-items: center;
+  const form = document.getElementById("formContato");
+  if (form) {
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      alert("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+      form.reset();
+    });
   }
+});
 
-  main {
-    padding: var(--espaco-m);
-  }
-}
-
-/* ================================
-   ⚙️ RODAPÉ
-==================================*/
-footer {
-  background-color: var(--cor-escura);
-  color: white;
-  text-align: center;
-  padding: var(--espaco-m);
-  margin-top: var(--espaco-l);
-}
